@@ -1,0 +1,499 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Alexandria', sans-serif;
+}
+
+h3{
+  font-family: 'Tiro Tamil', serif;
+}
+#tramites{
+    text-align: center;
+    margin-top: 35px;
+    margin-bottom: 50px;
+}
+
+.cartasdetramites{
+    height: 860px;
+    background-color: rgba(211, 211, 211, 0.275);
+    border-radius: 15px;
+}
+
+#carta{
+    height: 125px;
+    text-align: center;
+}
+
+#botondetramite{
+    margin-top: 25px;
+}
+
+.cartasdeturismo{
+    height: 2900px;
+    background-color: rgba(211, 211, 211, 0.275);
+    border-radius: 15px;
+}
+#puntosturisticos{
+    margin-top: 50px;
+    text-align: center;
+}
+
+.precomendados{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 5px
+}
+
+iframe{
+    border-radius: 5px;
+}
+
+.noticias{
+    height: 1230px;
+    background-color: rgba(211, 211, 211, 0.275);
+    border-radius: 15px;
+    margin-bottom: 50px;
+}
+
+#noticiastitulo{
+    text-align: center;
+    margin-bottom: 35px;
+    padding-top: 23px;
+}
+
+.noticiamessi{
+    margin-bottom: 18px;
+}
+
+#galeriatitulo{
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.galeria{
+  background-color: rgba(211, 211, 211, 0.275);
+  height: 3200px;
+  margin-left: 70px;
+  margin-right: 70px;
+  border-radius: 15px;
+}
+
+
+.lagaleria {
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE10 */
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+  
+  /* Create four equal columns that sits next to each other */
+  .column {
+    -ms-flex: 25%; /* IE10 */
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+  }
+  
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+  }
+  
+
+  @media screen and (max-width: 800px) {
+    .column {
+      -ms-flex: 50%;
+      flex: 50%;
+      max-width: 50%;
+    }
+  }
+  @media screen and (max-width: 600px) {
+    .column {
+      -ms-flex: 100%;
+      flex: 100%;
+      max-width: 100%;
+    }
+}
+
+
+#contacto{
+    margin-top: 10px;
+    text-align: center;
+}
+
+.contacto{
+    background-color: rgba(211, 211, 211, 0.275);
+    border-radius: 15px;
+    height: 500px;
+}
+
+/**aca va el footer**/
+
+footer{
+  margin-top: 30px;
+}
+a,
+a:hover,
+a:focus,
+a:active {
+  text-decoration: none;
+  outline: none;
+}
+
+a,
+a:active,
+a:focus {
+  color: #6f6f6f;
+  text-decoration: none;
+  transition-timing-function: ease-in-out;
+  -ms-transition-timing-function: ease-in-out;
+  -moz-transition-timing-function: ease-in-out;
+  -webkit-transition-timing-function: ease-in-out;
+  -o-transition-timing-function: ease-in-out;
+  transition-duration: 0.2s;
+  -ms-transition-duration: 0.2s;
+  -moz-transition-duration: 0.2s;
+  -webkit-transition-duration: 0.2s;
+  -o-transition-duration: 0.2s;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+#imgf {
+  max-width: 100%;
+  height: auto;
+}
+section {
+  padding: 60px 0;
+  min-height: 100vh;
+}
+.footer {
+  padding: 100px 0px 0px;
+  background-color: #ffb606;
+}
+
+.footer .archivo1 p {
+  font-size: 16px;
+  color: rgba(255, 255, 255, 0.6);
+  margin-top: 26px;
+}
+
+.footer .redes {
+  margin-top: 28px;
+}
+
+.redes ul li {
+  display: inline-block;
+}
+
+.redes ul li a i {
+  display: block;
+  margin: 0 2px;
+  width: 40px;
+  height: 40px;
+  margin-bottom: 20px;
+  background: #fafafa;
+  border-radius: 50%;
+  text-align: center;
+  margin-right: 5px;
+  line-height: 40px;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.redes ul li a .fa-facebook-f {
+  color: #4267b2;
+}
+
+.redes ul li a .fa-twitter {
+  color: #1da1f2;
+}
+
+.redes ul li a .fa-instagram {
+  color: #dd5044;
+}
+
+.redes ul li a .fa-linkedin-in {
+  color: #0177b5;
+}
+
+.redes ul li a:hover i {
+  color: #fff;
+}
+
+.redes ul li a:hover .fa-facebook-f {
+  background: #4267b2;
+}
+
+.redes ul li a:hover .fa-twitter {
+  background: #1da1f2;
+}
+
+.redes ul li a:hover .fa-instagram{
+  background: #dd5044;
+}
+
+.redes ul li a:hover .fa-linkedin-in {
+  background: #0177b5;
+}
+footer .logo {
+  max-width: 200px;
+}
+
+.footer h5 {
+  font-weight: 500;
+  margin-bottom: 28px;
+  text-transform: capitalize;
+  font-weight: 600;
+  color: black;
+  font-size: 21px;
+}
+
+.footer .archivo2 .media #imgf {
+  margin-right: 20px;
+  max-width: 100px;
+}
+.footer .archivo2 .media p {
+  font-size: 16px;
+  color: black;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  font-weight: 600;
+  line-height: 26px;
+}
+
+.footer .archivo2 .media span {
+  font-size: 12px;
+  color: #ffb606;
+  text-transform: uppercase;
+  margin-top: 15px;
+  display: block;
+}
+
+.footer .archivo2 .media {
+  margin-bottom: 20px;
+}
+
+.footer .archivo3 ul li a,
+.footer .archivo4 ul li a {
+  font-size: 16px;
+  color: black;
+  text-transform: capitalize;
+  margin-bottom: 13px;
+  display: block;
+}
+
+.footer .archivo3 ul li a:hover,
+.footer .archivo4 ul li a:hover,
+.footer .archivo2 a:hover p {
+  color: rgba(0, 0, 0, 0.379);
+}
+
+.footer .archivo3 h5 {
+  margin-bottom: 22px;
+  font-weight: 600;
+  color: black;
+  font-size: 21px;
+  line-height: 32px;
+}
+
+.footer .archivo4 h5 {
+  margin-bottom: 22px;
+  font-weight: 600;
+  color: black;
+  font-size: 21px;
+}
+
+.elcopyright {
+  margin-top: 83px;
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  padding: 25px 0px 28px;
+}
+
+.elcopyright p {
+  color: rgba(255, 255, 255, 0.6);
+}
+/**aca termina el footer**/ 
+
+
+
+@media only screen and (min-width:350px){
+    .cartasdetramites{
+        height: 990px;
+    }
+    
+}
+
+@media only screen and (min-width:370px){
+    .cartasdetramites{
+      height: 990px;
+    }
+
+    #puntosturisticos{
+      margin-bottom: 25px;
+    }
+
+    .galeria{
+    height: 4150px;
+    }
+    
+}
+
+@media only screen and (min-width: 440px){
+  .galeria{
+    height: 4700px;
+  }
+}
+
+@media only screen and (min-width: 470px){
+  .galeria{
+    height: 5000px;
+  }
+}
+
+@media only screen and (min-width: 480px){
+  .galeria{
+    height: 5200px;
+  }
+}
+
+@media only screen and (min-width: 497px){
+    .puntosturisticos{
+      height: 2900px;
+    }
+    .noticias{
+      height: 1300px;
+    }
+    .galeria{
+      height: 5700px;
+    }
+}
+@media only screen and (min-width: 520px){
+  .galeria{
+    height: 5800px;
+  }
+}
+
+@media only screen and (min-width: 546px){
+  .puntosturisticos{
+    height: 3200px;
+  }
+
+  .galeria{
+    height: 6300px;
+  }
+}
+
+@media only screen and (min-width: 580px){
+  .galeria{
+    height: 7000px;
+  }
+}
+
+@media only screen and (min-width: 600px){
+  .galeria{
+    height: 1800px;
+  }
+}
+
+@media only screen and (min-width: 630px){
+  .galeria{
+    height: 1900px;
+  }
+}
+
+@media only screen and (min-width: 660px){
+  .galeria{
+    height: 2100px;
+  }
+}
+
+@media only screen and (min-width: 720px){
+  .galeria{
+    height: 2300px;
+  }
+}
+
+
+@media only screen and (min-width: 768px){
+
+    .cartasdetramites{
+        height: 600px;;
+    }
+    .cartasdeturismo{
+        height: 1700px;
+    }
+    .puntosturisticos{
+        height: 1700px;
+    }
+
+    .noticias{
+        height: 1700px;
+    }
+
+    .galeria{
+      height: 2500px;
+    }
+}
+
+@media only screen and (min-width: 820px){
+  .galeria{
+    height: 700px;
+  }
+}
+
+@media only screen and (min-width: 870px){
+  .galeria{
+    height: 800px;
+  }
+}
+
+
+
+@media only screen and (min-width: 992px){
+    .foto{
+        height: 500px;
+        width: 100%;
+    }
+
+    .contenedorcartas{
+        width: 100%;
+        padding: 40px;
+    }
+
+    .cartasdetramites{
+        height: 450px;;
+    }
+    .cartasdeturismo{
+        height: 1300px;
+    }
+    .puntosturisticos{
+        height: 1300px;
+    }
+    .noticias{
+        height: 650px;
+    }
+
+    .galeria{
+      height: 1000px;
+    }
+
+    .elform{
+        margin-left: 140px;
+    }
+}
+
+@media only screen and (min-width: 1100px){
+  .galeria{
+    height: 1200px;
+  }
+}
